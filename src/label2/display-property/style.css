@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div{
+    background-color: pink;
+
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+    /*display: none; div is not visible on web pages and also place is removed*/
+}
+button{
+    display: block;
+}
+#box2{
+    visibility: hidden; /* hidden also space is removed */*
+    display: none; /* hidden but space is reserved */
+}
