@@ -1,20 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    color: white;
-    font-size: 12px;
 }
-
-/*div{*/
-/*    height: 100px;*/
-/*    width: 100px;*/
-/*    background-color: green;*/
-/*    border-radius: 50%;*/
-/*}*/
-
-/*body{*/
-/*    background-color: red;*/
-/*}*/
 
 #nav-bar{
     height: 30px;
@@ -37,4 +24,32 @@ a{
 }
 input{
     margin-left: 50px;
+}
+#content-area{
+    height: 540px;
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 25px;
+    margin-right: 5px;
+    text-align: center;
+}
+#box1{
+    background-color: rgb(255, 50, 190, 0.5);
+}
+#box2{
+    background-color: rgb(50, 255, 190, 0.5);
+}
+#box3{
+    background-color: rgb(50, 190, 255, 0.5);
+}
+footer{
+    color: white;
+    background-color: #0f1111;
+    text-align: center;
+    height: 30px;
 }
