@@ -1,0 +1,40 @@
+/**{*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*}*/
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: 1px black solid;
+    text-align: center;
+    border-radius: 2px;
+    display: inline-block;
+}
+#box1{
+    position: static;
+    right: 20px; /*top-right-bottom-left will not work on static position*/
+    background-color: red;
+}
+#box2{
+    position: relative;
+    top: 20px;
+    left: 25px;
+    background-color: green;
+}
+#box3{
+    position: absolute;
+    top: 10px;
+    background-color: lightblue;
+    /*It shift according to his parent top from parent*/
+}
+#box4{
+    position: fixed;
+    bottom: 5px;
+}
+#box5{
+    position: sticky;
+    top: 5px;
+    background-color: cadetblue;
+}
