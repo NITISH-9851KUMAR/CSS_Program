@@ -1,4 +1,16 @@
 *{
-    padding: 0;
-    margin: 0;
+    /*padding: 0;*/
+    /*margin: 0;*/
+    font-family: "Times New Roman";
+
+}
+h6{
+    text-align: center;
+    text-transform: capitalize;
+}
+#out-div{
+    font-size: 25px
+}
+#inner-div{
+    font-size: 10px;
 }
