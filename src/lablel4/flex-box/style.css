@@ -26,7 +26,7 @@ div{
    /*justify-content: space-evenly;*/
     justify-content: center; /*center along main axies*/
     align-items: center; /*center along cross axies */
-    align-content: flex-end; /* all item will in center */
+    align-content: flex-start; /* all item will in center */
 }
 #box1{
     background-color: aqua;
