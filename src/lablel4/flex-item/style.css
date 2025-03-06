@@ -8,7 +8,7 @@ body{
 
 div{
     height: 100px;
-    width: 100px;
+    width: 50px;
     border: 2px solid black;
     display: inline-block;
     /*margin-top: 10px;*/
@@ -17,8 +17,8 @@ div{
     justify-content: center;
 }
 #container{
-    height: 500px;
-    width: 700px;
+    height: 300px;
+    width: 800px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -32,11 +32,14 @@ div{
 
 #box1{
     background-color: gold;
+    flex-grow: 1;
 }
 #box2{
     background-color: green;
-    width: 200px;
-    height: 200px;
+    /*width: 200px;*/
+    height: 150px;
+    flex-grow: 2;
+    /*flex-shrink: 3; !*When all will shrink then box2 will shrink two times*!*/
     /*align-self: flex-end;*/
 }
 #box3{
@@ -45,9 +48,9 @@ div{
 }
 #box4{
     background-color: red;
-    width: 150px;
+    /*width: 150px;*/
 }
 #box5{
     background-color: salmon;
-    width: 150px;
+    /*width: 150px;*/
 }
