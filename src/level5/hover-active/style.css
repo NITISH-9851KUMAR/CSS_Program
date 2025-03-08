@@ -1,0 +1,24 @@
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+    /*transition: all; !*Apply on all *!*/
+    /*transition-duration: 2s; !*take 2 second time for change it state *!*/
+    /*transition-timing-function: ease-in;*/
+    /*transition-delay: 4s;*/
+    transition: font-size 2s ease-in 4s; /*shorthand property */
+}
+div:hover{
+    background-color: tan;
+    border: 2px solid green;
+    border-radius: 2px;
+    font-size: 20px;
+}
+div:active{ /*When we click on it */
+    background-color: salmon;
+}
