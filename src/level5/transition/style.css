@@ -1,0 +1,19 @@
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+}
+div:hover{
+    background-color: tan;
+    border: 2px solid green;
+    border-radius: 2px;
+    font-size: 20px;
+}
+div:active{
+    background-color: salmon;
+}
